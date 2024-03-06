@@ -6,6 +6,7 @@ Additionally, the test folder contains test files for the implementation of the 
 
 
 Read further for fun instructions to play the game!
+
 Welcome to our Atari Asteroids Simulation Experience. 
 
 ---TOP SECRET_____Message From Commander Lerner_____TOP SECRET---
