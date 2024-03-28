@@ -1,46 +1,42 @@
-## Asteroids-Video-Game
+#Asteroids Video Game
+This is a Java implementation of the 1979 space-themed video game, created in collaboration with three team members. The program utilizes abstractions to integrate various objects into the final interface.
 
-This is the 1979 space themed video game implemented in Java in collaboration with 3 team members. The program utilises abstractions through which different objects are pulled together into the final interface. 
+In the src folder, you'll find AbstractAnimation.java and AbstractObject.java, which provide essential animations and objects for the game. Within the animatedObjects folder, instances of a ship, bullet, and asteroid are created for gameplay. Additionally, the AnimationDemos folder contains files for implementing animations and motions for the ship, bullet, and asteroids. Finally, MyGame.java serves as the main program, creating an interface for users to play the game.
 
-The src folder contains the AbstractAnimation.java file and AbstractObject.java file providing basic functioning animations and objects that are utilised during the game. Within the animatedObjects folder, instances of a ship, bullet, and asteroid are created to be used during the game; additionally, the AnimationDemos folder consists of files to implement animations/motions for the ship, bullet, and asteroids. Finally the MyGame.java file is the main program that creats an interface for the user to play the game. 
+The test folder includes test files for implementing asteroid, bullet, ship, and game animations.
 
-Additionally, the test folder contains test files for the implementation of the asteroid, bullet, ship, and game animations. 
+Keep reading for instructions on how to play the game!
 
-
-
-
-Read further for fun instructions to play the game!
-
-Welcome to our Atari Asteroids Simulation Experience. 
+Welcome to our Atari Asteroids Simulation Experience.
 
 ---TOP SECRET_____Message From Commander Lerner_____TOP SECRET---
 
-WELCOME STATEMENT
-Congratulations on completing your basic pilot training, and becoming an A.C.E! We hope you've enjoyed your journey to get to the Terran Intergalactic Station (T.I.S). Please take a oment to familiarize yourself with the following before embarking on your adventures:
-- up_arrow : Activate THRUST to change ship's moving trajectory towards where your ship is facing. Increases speed. 
-- down_arrow : Reverse THRUST to slow down the aircraft. Useful to avoid incoming asteroids.
-- left_arrow : STEER the ship to rotate towards the LEFT. Does not change movement direction unless you activate THRUST.
-- right_arrow : STEER the ship to rotate towards the RIGHT. Does not change movement direction unless you activate THRUST.
-- space_bar : SHOOT bullets in the direction your aircraft is currently facing.
-- H_key : activate HYPERSPACE. Teleports your ship anywhere in space. Useful for a quick getaway from an asteroid. 
+##WELCOME STATEMENT
 
+Congratulations on completing your basic pilot training and becoming an A.C.E! We hope you've enjoyed your journey to the Terran Intergalactic Station (T.I.S). Before embarking on your adventures, please take a moment to familiarize yourself with the following controls:
 
+up_arrow: Activate THRUST to change the ship's trajectory toward its facing direction, increasing speed.
+down_arrow: Reverse THRUST to decelerate the ship, useful for avoiding asteroids.
+left_arrow: STEER the ship to rotate left. Movement direction remains unchanged unless THRUST is activated.
+right_arrow: STEER the ship to rotate right. Movement direction remains unchanged unless THRUST is activated.
+space_bar: SHOOT bullets in the direction the ship is facing.
+H_key: Activate HYPERSPACE to teleport the ship anywhere in space, ideal for quick escapes.
 MISSION CRITICAL INFORMATION
-___MOVEMENT:
-Please be aware that the heavy gravity in the ATARI Planet Cluster is especially bad in the Asteroid Area. Therefore, your ship will not be able to mantain its speed, and will slow down as time goes on if THRUST is not engaged. Additionally, once all asteroids have been destroyed, the sudden shift in the space-matter will cause additional asteroids to appear. They will be larger in number, and faster. Don't worry, with your training and courage you will be able to handle them perfectly. Probably.
 
-___POINTS:
-Every asteroid you kill will yield 500 points to your A.C.E Balance. Every time you gain an additonal 10000 points, Terran Command will provide you with one more Shield Charge to use in case of collision.
+MOVEMENT:
+The heavy gravity in the Atari Planet Cluster's Asteroid Area causes ships to gradually lose speed if THRUST isn't engaged. Destroying all asteroids triggers the appearance of more, larger, and faster asteroids. With your training and courage, you'll handle them perfectly. Probably.
 
-___LIVES:
-An A.C.E SHIP comes with three Shield Charges. Upon collision with an asteroid, the charge will destroy the 'roid and hyperspace the ship to center of the Asteroid Area. For the next 1.2 seconds, your ship will phase through space-matter in such way that it will be immune to any collisions. Be careful not to be inside an asteroid when the protection wears off! 
+POINTS:
+Each destroyed asteroid yields 500 points to your A.C.E Balance. Every 10,000 additional points earn you an extra Shield Charge from Terran Command.
 
-___GAME OVER
-Due to the A.C.E SHIP's engeneers' sense of humor, you'll see these Shield Charges labeled as "Lives" on your dashboard. Do not be concerned you do not die once you are out of "lives". We will automatically teleport you back to the T.I.S safe and sound. And Alive. We Promise <3.
+LIVES:
+An A.C.E SHIP comes equipped with three Shield Charges. Upon asteroid collision, a charge destroys the asteroid and hyperspaces the ship to the asteroid area's center. For the next 1.2 seconds, your ship phases through space-matter, becoming collision-immune. Be cautious of your surroundings when the protection expires!
 
----------------------------------------------------------
-WOW! LOOK out the window of your space shuttle!! You can see two beautful asteroids floating by. They might look really cool up close, but they are a nightmare for humans trying to set roots in the ATARAI Planet Cluster. You're going to be changing lives during your time here! 
+GAME OVER
+Shield Charges are humorously labeled as "Lives" on your dashboard. Running out won't end your game; you'll be automatically teleported back to T.I.S safe and sound. We promise, you'll be alive and well. <3
 
-Good Luck, Ace!
+Take a moment to gaze out the window of your space shuttle! You'll see two beautiful asteroids floating by. While they may seem captivating up close, they pose a significant challenge for humans settling in the Atari Planet Cluster. Get ready to make a difference during your time here!
 
-Thank you, and we hope you enjoy your time abroad the Terran Intergalactic Station
+Good luck, Ace!
+
+Thank you, and we hope you enjoy your time aboard the Terran Intergalactic Station.
