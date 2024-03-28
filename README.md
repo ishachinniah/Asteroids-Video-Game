@@ -2,7 +2,7 @@
 
 This is the 1979 space themed video game implemented in Java in collaboration with 3 team members. The program utilises abstractions through which different objects are pulled together into the final interface. 
 
-The src folder containg The AbstractAnimation.java file and AbstractObject.java file provide basic functioning animations and objects that are utilised during the game. Within the animatedObjects folder, instances of a ship, bullet, and asteroid are created that can be used during the game; additionally, the AnimationDemos folder consists of files to implement animations/motions for the ship, bullet, and asteroids. Finally the MyGame.java file is the main program that creats an interface for the user to play the game. 
+The src folder contains the AbstractAnimation.java file and AbstractObject.java file providing basic functioning animations and objects that are utilised during the game. Within the animatedObjects folder, instances of a ship, bullet, and asteroid are created to be used during the game; additionally, the AnimationDemos folder consists of files to implement animations/motions for the ship, bullet, and asteroids. Finally the MyGame.java file is the main program that creats an interface for the user to play the game. 
 
 Additionally, the test folder contains test files for the implementation of the asteroid, bullet, ship, and game animations. 
 
