@@ -7,17 +7,19 @@ The test folder includes test files for implementing asteroid, bullet, ship, and
 
 Keep reading for instructions on how to play the game!
 
-### ---TOP SECRET_____Message
+### TOP SECRET MESSAGE
 
 Congratulations on completing your basic pilot training and becoming an A.C.E! We hope you've enjoyed your journey to the Terran Intergalactic Station (T.I.S). Before embarking on your adventures, please take a moment to familiarize yourself with the following controls:
 
-up_arrow: Activate THRUST to change the ship's trajectory toward its facing direction, increasing speed.
-down_arrow: Reverse THRUST to decelerate the ship, useful for avoiding asteroids.
-left_arrow: STEER the ship to rotate left. Movement direction remains unchanged unless THRUST is activated.
-right_arrow: STEER the ship to rotate right. Movement direction remains unchanged unless THRUST is activated.
-space_bar: SHOOT bullets in the direction the ship is facing.
-H_key: Activate HYPERSPACE to teleport the ship anywhere in space, ideal for quick escapes.
-MISSION CRITICAL INFORMATION
+- up_arrow: Activate THRUST to change the ship's trajectory toward its facing direction, increasing speed.
+- down_arrow: Reverse THRUST to decelerate the ship, useful for avoiding asteroids.
+- left_arrow: STEER the ship to rotate left. Movement direction remains unchanged unless THRUST is activated.
+- right_arrow: STEER the ship to rotate right. Movement direction remains unchanged unless THRUST is activated.
+- space_bar: SHOOT bullets in the direction the ship is facing.
+- H_key: Activate HYPERSPACE to teleport the ship anywhere in space, ideal for quick escapes.
+
+
+#### MISSION CRITICAL INFORMATION
 
 ##### MOVEMENT:
 The heavy gravity in the Atari Planet Cluster's Asteroid Area causes ships to gradually lose speed if THRUST isn't engaged. Destroying all asteroids triggers the appearance of more, larger, and faster asteroids. With your training and courage, you'll handle them perfectly. Probably.
