@@ -7,9 +7,7 @@ The test folder includes test files for implementing asteroid, bullet, ship, and
 
 Keep reading for instructions on how to play the game!
 
-Welcome to our Atari Asteroids Simulation Experience.
-
----TOP SECRET_____Message From Commander Lerner_____TOP SECRET---
+---TOP SECRET_____Message Welcome to our Atari Asteroids Simulation Experience.
 
 ## WELCOME STATEMENT
 
